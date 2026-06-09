@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Presentation Payment</h2>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="Order.html">Order</a>
+            <a href="Payment.html">Payment</a>
+
+        </div>
+    </nav>
+
+    <section class="payment-container">
+
+        <h1>Complete Your Payment</h1>
+        <p>Pay your order to start your presentation.</p>
+
+        <div class="price-box">
+            <h2>Pricing</h2>
+            <ul>
+                <li>5 Slides — 1000DA</li>
+                <li>10 Slides — 1500DA</li>
+                <li>15 Slides — 2000DA</li>
+                <li>20 Slides — 2500DA</li>
+            </ul>
+        </div>
+
+        <div class="payment-box">
+
+            <label>Email (for delivery)</label>
+            <input type="email" id="email" placeholder="your@email.com">
+
+            <label>Select Package</label>
+            <select id="package">
+                <option value="5">5 Slides - 1000DA</option>
+                <option value="10">10 Slides -1500DA</option>
+                <option value="15">15 Slides - 2000DA</option>
+                <option value="20">20 Slides - 2500DA</option>
+            </select>
+
+            <button id="payBtn">Pay Now</button>
+
+            <p id="status"></p>
+
+        </div>
+
+    </section>
+
+    <script src="payment.js"></script>
+</body>
+
+</html>

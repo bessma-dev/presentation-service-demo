@@ -1,0 +1,159 @@
+body {
+    background: #3c011e;
+    color: white;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.menu a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    justify-content: center
+}
+
+#orderBtn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.secondary {
+    background: transparent;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.pay {
+    background: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: white;
+}
+
+nav h2 {
+    color: black;
+}
+
+.index-image img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.order-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 15px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.payment-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.price-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.price-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-box li {
+    margin: 10px 0;
+}
+
+.payment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-box input,
+.payment-box select {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+#payBtn {
+    padding: 15px;
+    background: gold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#payBtn:hover {
+    background: orange;
+}

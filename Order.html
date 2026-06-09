@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Presentation</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Presentation Order</h2>
+
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="Order.html">Order</a>
+            <a href="Payment.html">Payment</a>
+
+        </div>
+
+    </nav>
+
+    <section class="order-container">
+
+        <h1>Order Your Presentation</h1>
+        <p>Fill the form below and I will create your presentation manually.</p>
+
+        <form id="orderForm">
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Presentation Topic" required>
+
+            <select required>
+                <option value="">Select Theme</option>
+                <option>Professional</option>
+                <option>Academic</option>
+                <option>Business</option>
+                <option>Creative</option>
+            </select>
+
+            <textarea placeholder="Describe your presentation content" rows="6" required></textarea>
+
+            <input type="file" accept=".pdf">
+
+            <select>
+                <option value="">Number of Slides</option>
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+            </select>
+            <select>
+                <option value="">Deadline</option>
+                <option>24 hours</option>
+                <option>48 hours</option>
+                <option>72 hours</option>
+            </select>
+
+            <button type="submit" id="submitBtn">Submit Order</button>
+
+        </form>
+
+        <p id="message"></p>
+
+        <br>
+        <div class="buttons">
+
+
+            <a href="Payment.html"><button class="pay">Pay now</button></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
